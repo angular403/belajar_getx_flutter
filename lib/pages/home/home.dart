@@ -1,4 +1,5 @@
-import 'package:belajar_getx/pages/shop/shop.dart';
+import 'package:belajar_getx/latihan/latihan_depedency.dart';
+// import 'package:belajar_getx/pages/shop/shop.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -16,9 +17,9 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(""),
-            OutlinedButton(
+            ElevatedButton(
               onPressed: () {
-                Get.to(() => ShopPage());
+                Get.to(() => CountPage());
               },
               child: Text("Next >>"),
             ),
